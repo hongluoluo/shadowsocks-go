@@ -2,24 +2,24 @@
 
   Name	Explanation
   
-  server	ssserver监听地址，0.0.0.0监听本地所有网卡地址
+  server	 ssserver监听地址，0.0.0.0监听本地所有网卡地址
   
-  server_port	ssserver服务端口
+  server_port	  ssserver服务端口
   
-  local_address	本地监听地址
+  local_address  	本地监听地址，这个一般是服务端程序需要翻墙时会用到，就是服务端的本地代理，客户端连接时不需要这个选项。
   
-  local_port	本地端口
+  local_port	 本地端口，解释同上
   
-  password	用于加密的密码
+  password	 用于加密的密码
   
-  timeout	超时设置，单位秒，不建议太长
+  timeout	 超时设置，单位秒，不建议太长
   
-  method	默认: “aes-256-cfb”, 详见 Encryption
+  method	 默认: “aes-256-cfb”, 详见 Encryption
   
   
  fast_open	是否使用 TCP_FASTOPEN, true / false
  
- workers	worker数量, 仅在Unix/Linux生效
+ workers	 worker数量, 仅在Unix/Linux生效
   
 
 # shadowsocks-go
