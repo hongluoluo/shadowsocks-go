@@ -1,4 +1,4 @@
-  配置文件字段详解:
+  # 配置文件字段详解:
 
   Name	Explanation
   server	ssserver监听地址，0.0.0.0监听本地所有网卡地址
