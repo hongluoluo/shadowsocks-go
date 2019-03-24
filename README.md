@@ -1,3 +1,16 @@
+配置文件字段详解:
+
+Name	Explanation
+server	ssserver监听地址，0.0.0.0监听本地所有网卡地址
+server_port	ssserver服务端口
+local_address	本地监听地址
+local_port	本地端口
+password	用于加密的密码
+timeout	超时设置，单位秒，不建议太长
+method	默认: “aes-256-cfb”, 详见 Encryption
+fast_open	是否使用 TCP_FASTOPEN, true / false
+workers	worker数量, 仅在Unix/Linux生效
+
 # shadowsocks-go
 
 Current version: 1.2.2 [![Build Status](https://travis-ci.org/shadowsocks/shadowsocks-go.png?branch=master)](https://travis-ci.org/shadowsocks/shadowsocks-go)
